@@ -1,25 +1,28 @@
-<h2><a href="https://leetcode.com/problems/intersection-of-two-arrays">349. Intersection of Two Arrays</a></h2><h3>Easy</h3><hr><p>Given two integer arrays <code>nums1</code> and <code>nums2</code>, return <em>an array of their <span data-keyword="array-intersection">intersection</span></em>. Each element in the result must be <strong>unique</strong> and you may return the result in <strong>any order</strong>.</p>
+https://leetcode.com/problems/intersection-of-two-arrays/description/
+# 349. Intersection of Two Arrays
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Problem
+Given two integer arrays `nums1` and `nums2`, return an array of their **intersection**.
+Each element in the result must be **unique**, and the result can be returned in **any order**.
 
-<pre>
-<strong>Input:</strong> nums1 = [1,2,2,1], nums2 = [2,2]
-<strong>Output:</strong> [2]
-</pre>
+## Example
+Input:
+nums1 = [1,2,2,1]
+nums2 = [2,2]
 
-<p><strong class="example">Example 2:</strong></p>
+Output:
+[2]
 
-<pre>
-<strong>Input:</strong> nums1 = [4,9,5], nums2 = [9,4,9,8,4]
-<strong>Output:</strong> [9,4]
-<strong>Explanation:</strong> [4,9] is also accepted.
-</pre>
+## Approach
+First sort both arrays using `qsort()`.
+Then use the **two-pointer technique** to compare elements of both arrays.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+If the elements are equal, add the element to the result (ensuring no duplicates).
+If one element is smaller, move the pointer of that array forward.
 
-<ul>
-	<li><code>1 &lt;= nums1.length, nums2.length &lt;= 1000</code></li>
-	<li><code>0 &lt;= nums1[i], nums2[i] &lt;= 1000</code></li>
-</ul>
+## Time Complexity
+O(n log n + m log m)
+
+## Space Complexity
+O(min(n, m))
+
