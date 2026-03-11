@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/0169-majority-element) |
 | [0349-intersection-of-two-arrays](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [1200-minimum-absolute-difference](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1200-minimum-absolute-difference) |
 ## Hash Table
 |  |
 | ------- |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/0169-majority-element) |
 | [0349-intersection-of-two-arrays](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [1200-minimum-absolute-difference](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1200-minimum-absolute-difference) |
 ## Counting
 |  |
 | ------- |
