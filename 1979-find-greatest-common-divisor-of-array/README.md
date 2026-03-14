@@ -1,45 +1,89 @@
-<h2><a href="https://leetcode.com/problems/find-greatest-common-divisor-of-array">2106. Find Greatest Common Divisor of Array</a></h2><h3>Easy</h3><hr><p>Given an integer array <code>nums</code>, return<strong> </strong><em>the <strong>greatest common divisor</strong> of the smallest number and largest number in </em><code>nums</code>.</p>
+https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/
+# Find Greatest Common Divisor of Array – README
 
-<p>The <strong>greatest common divisor</strong> of two numbers is the largest positive integer that evenly divides both numbers.</p>
+## Problem
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Given an integer array **nums**, return the **greatest common divisor (GCD)** of the **smallest number** and the **largest number** in the array.
 
-<pre>
-<strong>Input:</strong> nums = [2,5,6,9,10]
-<strong>Output:</strong> 2
-<strong>Explanation:</strong>
-The smallest number in nums is 2.
-The largest number in nums is 10.
-The greatest common divisor of 2 and 10 is 2.
-</pre>
+The **greatest common divisor** of two numbers is the **largest number that divides both numbers without leaving a remainder**.
 
-<p><strong class="example">Example 2:</strong></p>
+---
 
-<pre>
-<strong>Input:</strong> nums = [7,5,6,8,3]
-<strong>Output:</strong> 1
-<strong>Explanation:</strong>
-The smallest number in nums is 3.
-The largest number in nums is 8.
-The greatest common divisor of 3 and 8 is 1.
-</pre>
+## Example
 
-<p><strong class="example">Example 3:</strong></p>
+Input
 
-<pre>
-<strong>Input:</strong> nums = [3,3]
-<strong>Output:</strong> 3
-<strong>Explanation:</strong>
-The smallest number in nums is 3.
-The largest number in nums is 3.
-The greatest common divisor of 3 and 3 is 3.
-</pre>
+```id="0y4h9g"
+nums = [2,5,6,9,10]
+```
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Smallest number
 
-<ul>
-	<li><code>2 &lt;= nums.length &lt;= 1000</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 1000</code></li>
-</ul>
+```id="q1b6in"
+2
+```
+
+Largest number
+
+```id="xfm3q4"
+10
+```
+
+GCD calculation
+
+```id="5cbv20"
+gcd(10,2) = 2
+```
+
+Output
+
+```id="y9l3pp"
+2
+```
+
+---
+
+## Approach
+
+To solve this problem, we follow two main steps:
+
+1. **Find the smallest and largest elements in the array.**
+2. **Compute their GCD using Euclid’s Algorithm.**
+
+## Algorithm
+
+1. Initialize **min** and **max** with the first element of the array.
+2. Traverse the array:
+
+   * Update **min** if a smaller value is found.
+   * Update **max** if a larger value is found.
+3. Apply **Euclid’s Algorithm** to compute the GCD of **max** and **min**.
+4. Return the result.
+
+## Time Complexity
+
+Finding the minimum and maximum:
+
+```id="j2ox1m"
+O(n)
+```
+
+Euclid’s GCD algorithm:
+
+```id="7yzg4x"
+O(log n)
+```
+
+Overall complexity:
+
+```id="s2my0c"
+O(n)
+```
+
+---
+
+## Space Complexity
+
+```id="7zj7hy"
+O(1)
+```
