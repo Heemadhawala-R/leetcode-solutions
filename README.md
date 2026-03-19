@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/0009-palindrome-number) |
 | [0412-fizz-buzz](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/0412-fizz-buzz) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2235-add-two-integers](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/2235-add-two-integers) |
 ## Number Theory
 |  |
 | ------- |
