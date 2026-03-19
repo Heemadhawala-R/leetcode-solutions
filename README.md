@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0912-sort-an-array](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [1200-minimum-absolute-difference](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1200-minimum-absolute-difference) |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Hash Table
 |  |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/0009-palindrome-number) |
 | [0412-fizz-buzz](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/0412-fizz-buzz) |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2235-add-two-integers](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/2235-add-two-integers) |
