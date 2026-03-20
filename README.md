@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1480-running-sum-of-1d-array) |
 | [1672-richest-customer-wealth](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1672-richest-customer-wealth) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2114-maximum-number-of-words-found-in-sentences](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/2114-maximum-number-of-words-found-in-sentences) |
 ## Hash Table
 |  |
 | ------- |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/0412-fizz-buzz) |
+| [2114-maximum-number-of-words-found-in-sentences](https://github.com/Heemadhawala-R/leetcode-solutions/tree/master/2114-maximum-number-of-words-found-in-sentences) |
 ## Simulation
 |  |
 | ------- |
